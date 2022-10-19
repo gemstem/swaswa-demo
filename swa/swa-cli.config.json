@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "npx-swa": {
+      "appLocation": "src",
+      "apiLocation": "api",
+      "outputLocation": ".",
+      "apiBuildCommand": "dotnet publish -c Release"
+    }
+  }
+}
